@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "925529579153",
+    "project_id": "ucc-it-portal",
+    "storage_bucket": "ucc-it-portal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925529579153:android:9b5ba711e38cee63f4a930",
+        "android_client_info": {
+          "package_name": "com.example.uccitportal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRmxP9zHLI8YTbtnownaXuWZUxNe7F7N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

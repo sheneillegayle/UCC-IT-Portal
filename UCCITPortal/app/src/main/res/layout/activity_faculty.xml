@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- layout for the faculty directory screen -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".FacultyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty Directory"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back to main screen"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/instructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Below you can find the details of the faculty in the IT department:"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/female_icon"
+            android:contentDescription="Natalie Rose" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Natalie Rose"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/phoneNatalie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: +1-876-838-2408"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp"
+            android:autoLink="phone" />
+
+        <TextView
+            android:id="@+id/emailNatalie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: deanmst@ucc.edu.jm"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp"
+            android:autoLink="email" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/male_icon"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Neil Williams" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neil Williams"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/phoneNeil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: +1-876-880-1589"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp"
+            android:autoLink="phone" />
+
+        <TextView
+            android:id="@+id/emailNeil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: itlecturer@ucc.edu.jm"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp"
+            android:autoLink="email" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/male_icon"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Otis Osbourne" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Otis Osbourne"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/phoneOtis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: +1-876-218-2935"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp"
+            android:autoLink="phone" />
+
+        <TextView
+            android:id="@+id/emailOtis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: itfaculty@ucc.edu.jm"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp"
+            android:autoLink="email" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/male_icon"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Sajjad Rizvi" />
+            
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sajjad Rizvi"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/phoneSajjad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: +92-310-226-6566"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp"
+            android:autoLink="phone" />
+
+        <TextView
+            android:id="@+id/emailSajjad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: srizvi@faculty.ucc.edu.jm"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp"
+            android:autoLink="email" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/male_icon"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Steven Gentles" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stephen Gentles"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/phoneStephen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone: +1-876-392-0218"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp"
+            android:autoLink="phone" />
+
+        <TextView
+            android:id="@+id/emailStephen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: sgentles@faculty.ucc.edu.jm"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="4dp"
+            android:autoLink="email" />
+
+    </LinearLayout>
+</ScrollView>
